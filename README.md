@@ -1,9 +1,10 @@
 <p align="center">
-  <img src="assets/pic1.jpg" alt="Budget Brain Logo" width="100"/>
+  <img src="assets/pic1.jpg" alt="Budget Brain Logo" width="350" style="margin-bottom: 10px;"/>
 </p>
 
-<h1 align="center">Budget Brain</h1>
-<p align="center">A simple and intuitive personal finance advisor</p>
+<p align="center"><em>A simple and intuitive personal finance advisor</em></p>
+
+---
 
 ## 🚀 Live Demo
 
@@ -99,6 +100,7 @@ If you find a bug, have suggestions, or need help, please [open an issue](../../
 ---
 
 <p align="center">Made with ❤️ using React, TypeScript, and Tailwind CSS</p>
+
 
 
 
