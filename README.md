@@ -36,47 +36,12 @@ npm --version
 
 ```
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone <your-repository-url>
-cd financial-advisor-mvp
-```
-
-### 2. Install Dependencies
-
-Using npm:
-```bash
-npm install
-```
-
-Or using yarn:
-```bash
-yarn install
-```
-
-### 3. Start the Development Server
-
-Using npm:
-```bash
-npm run dev
-```
-
-Or using yarn:
-```bash
-yarn dev
-```
-
-The application will start running on `http://localhost:5173`
-
 ## 📦 Available Scripts
 
 In the project directory, you can run:
 
 ### `npm run dev` or `yarn dev`
-Runs the app in development mode. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+Runs the app in development mode.
 
 ### `npm run build` or `yarn build`
 Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -106,70 +71,6 @@ financial-advisor-mvp/
 └── README.md           # Project documentation
 ```
 
-## 🎯 How It Works
-
-1. **Input Financial Data**: Users enter their monthly salary, loan payments, and interest rates
-2. **Budget Calculation**: The app calculates net income after taxes (assuming 25% tax rate) and subtracts loan payments
-3. **Category Allocation**: Remaining income is allocated across categories using financial best practices:
-   - Housing: 30%
-   - Food: 15%
-   - Transportation: 15%
-   - Savings: 20%
-   - Investment: 10%
-   - Entertainment: 5%
-   - Buffer: 5%
-
-## 🔧 Customization
-
-### Modifying Budget Percentages
-
-To adjust the budget allocation percentages, edit the `calculateBudget` function in `src/App.tsx`:
-
-```typescript
-const housing = availableIncome * 0.30;        // 30% for housing
-const food = availableIncome * 0.15;           // 15% for food
-const transportation = availableIncome * 0.15; // 15% for transportation
-// ... modify as needed
-```
-
-### Styling Changes
-
-The project uses Tailwind CSS for styling. You can:
-- Modify existing styles by changing Tailwind classes in components
-- Add custom styles in `src/index.css`
-- Extend the Tailwind configuration in `tailwind.config.js`
-
-## 🚀 Deployment
-
-### Deploy to Netlify
-
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-
-2. Deploy the `dist` folder to Netlify by dragging and dropping it on [netlify.com/drop](https://netlify.com/drop)
-
-### Deploy to Vercel
-
-1. Install Vercel CLI:
-   ```bash
-   npm install -g vercel
-   ```
-
-2. Deploy:
-   ```bash
-   vercel --prod
-   ```
-
-### Deploy to Other Platforms
-
-The built files in the `dist` folder can be deployed to any static hosting service like:
-- GitHub Pages
-- Firebase Hosting
-- AWS S3
-- Surge.sh
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -193,3 +94,4 @@ For support or questions, please open an issue on the repository or contact the 
 ---
 
 Made with ❤️ using React, TypeScript, and Tailwind CSS
+
