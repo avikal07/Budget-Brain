@@ -71,6 +71,19 @@ financial-advisor-mvp/
 └── README.md           # Project documentation
 ```
 
+
+## 🎯 How It Works
+1. **Input Financial Data**: Users enter their monthly salary, loan payments, and interest rates  
+2. **Budget Calculation**: The app calculates net income after taxes (assuming 25% tax rate) and subtracts loan payments  
+3. **Category Allocation**: Remaining income is allocated across categories using financial best practices:  
+   - Housing: 30%  
+   - Food: 15%  
+   - Transportation: 15%  
+   - Savings: 20%  
+   - Investment: 10%  
+   - Entertainment: 5%  
+   - Buffer: 5%  
+
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -79,9 +92,6 @@ financial-advisor-mvp/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 🐛 Issues
 
@@ -94,4 +104,5 @@ For support or questions, please open an issue on the repository or contact the 
 ---
 
 Made with ❤️ using React, TypeScript, and Tailwind CSS
+
 
