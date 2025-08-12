@@ -1,10 +1,10 @@
-# Financial Advisor MVP
+# Budget Brain
 
 A simple and intuitive personal finance advisor that helps users create budget breakdowns based on their monthly salary and loan obligations.
 
 ## 🚀 Live Demo
 
-Visit the live application: [https://dainty-chimera-5002c1.netlify.app](https://dainty-chimera-5002c1.netlify.app)
+Visit the live application: [https://budgetbrain-ai.netlify.app](https://budgetbrain-ai.netlify.app)
 
 ## ✨ Features
 
@@ -33,6 +33,7 @@ You can check your versions by running:
 ```bash
 node --version
 npm --version
+
 ```
 
 ## 🚀 Getting Started
