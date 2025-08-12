@@ -1,6 +1,9 @@
-# Budget Brain
+<p align="center">
+  <img src="assets/pic1.jpg" alt="Budget Brain Logo" width="100"/>
+</p>
 
-A simple and intuitive personal finance advisor that helps users create budget breakdowns based on their monthly salary and loan obligations.
+<h1 align="center">Budget Brain</h1>
+<p align="center">A simple and intuitive personal finance advisor</p>
 
 ## 🚀 Live Demo
 
@@ -22,35 +25,32 @@ Visit the live application: [https://budgetbrain-ai.netlify.app](https://budgetb
 - **Build Tool**: Vite
 - **Deployment**: Netlify
 
-## 📋 Prerequisites
+## 🛠️ Setup & Usage
 
-Before running this project, make sure you have the following installed:
+**Prerequisites**  
+- **Node.js** (v16.0 or higher)  
+- **npm** (comes with Node.js) or **yarn**  
 
-- **Node.js** (version 16.0 or higher)
-- **npm** (comes with Node.js) or **yarn**
-
-You can check your versions by running:
+Check versions:
 ```bash
 node --version
 npm --version
-
 ```
 
-## 📦 Available Scripts
+**Common Commands**
+```bash
+# Start development server
+npm run dev
 
-In the project directory, you can run:
+# Build for production
+npm run build
 
-### `npm run dev` or `yarn dev`
-Runs the app in development mode.
+# Preview production build locally
+npm run preview
 
-### `npm run build` or `yarn build`
-Builds the app for production to the `dist` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
-
-### `npm run preview` or `yarn preview`
-Locally preview the production build.
-
-### `npm run lint` or `yarn lint`
-Runs ESLint to check for code quality issues.
+# Lint code for issues
+npm run lint
+```
 
 ## 🏗️ Project Structure
 
@@ -92,17 +92,14 @@ financial-advisor-mvp/
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
+## 🐛 Issues & Support
 
-## 🐛 Issues
-
-If you encounter any issues or have suggestions for improvements, please create an issue on the repository.
-
-## 📞 Support
-
-For support or questions, please open an issue on the repository or contact the maintainers.
+If you find a bug, have suggestions, or need help, please [open an issue](../../issues) in the repository.
 
 ---
 
-Made with ❤️ using React, TypeScript, and Tailwind CSS
+<p align="center">Made with ❤️ using React, TypeScript, and Tailwind CSS</p>
+
+
 
 
