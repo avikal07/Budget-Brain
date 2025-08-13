@@ -1,0 +1,104 @@
+/* src/App.css */
+
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f7f8fc, #e8ecf5);
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #222;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Inputs & Select */
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 8px rgba(74,144,226,0.3);
+}
+
+/* Buttons */
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #4a90e2, #007aff);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #007aff, #4a90e2);
+  transform: translateY(-1px);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background: #f4f6fb;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+}
+
+td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background: #f9faff;
+}
+
+/* Tips Section */
+.tips-section {
+  background: #f9faff;
+  padding: 20px;
+  margin-top: 25px;
+  border-radius: 10px;
+  border-left: 5px solid #4a90e2;
+}
+
+.tips-section h3 {
+  margin-top: 0;
+}
+
+/* Rupee Styling */
+.currency {
+  font-weight: bold;
+  color: #007aff;
+}
+
